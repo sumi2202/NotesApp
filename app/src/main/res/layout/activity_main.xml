@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/magnolia"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
     <TextView
@@ -37,7 +37,7 @@
         android:layout_height="@dimen/_20sdp"
         android:contentDescription="@string/app_name"
         android:src="@drawable/ic_search"
-        app:tint="@color/magnolia" />
+        app:tint="@color/verdigris" />
     <EditText
         android:id="@+id/inputSearch"
         android:layout_width="match_parent"
@@ -46,7 +46,21 @@
         android:background="@null"
         android:hint="Search Notes..."
         android:imeOptions="actionDone"
+        android:importantForAutofill="no"
+        android:includeFontPadding="false"
+        android:inputType="text"
+        android:textColor="@color/russianViolet"
+        android:textColorHint="@color/verdigris"
+        android:textSize="@dimen/_15sdp"
         />
     </LinearLayout>
+    <LinearLayout
+        android:id="@+id/quickActions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/verdigris"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"></LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
