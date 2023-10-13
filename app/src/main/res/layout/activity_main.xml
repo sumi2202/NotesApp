@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/magnolia"
     tools:context=".MainActivity">
 
     <TextView
@@ -58,9 +58,21 @@
         android:id="@+id/quickActions"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/verdigris"
-        android:gravity="center_vertical"
+        android:background="@color/magnolia"
+        android:gravity="right"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"></LinearLayout>
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageView
+            android:id="@+id/addNote"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_margin="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:src="@drawable/ic_add_note"
+            android:tint="@color/russianViolet"></ImageView>
+    </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
