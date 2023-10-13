@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="russianViolet">#390040</color>
+    <color name="verdigris">#62BEC1</color>
+    <color name="raspberryRose">#B5446E</color>
+    <color name="magnolia">#EFE9F4</color>
+    <color name="aquamarine">#75E4B3</color>
+</resources>
