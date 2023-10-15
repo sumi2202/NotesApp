@@ -19,17 +19,29 @@
             android:animateLayoutChanges="true">
 
             <ImageView
-                android:id="@+id/imageBack"
-                android:layout_width="@dimen/_40sdp"
-                android:layout_height="@dimen/_40sdp"
+                android:id="@+id/NoteBack"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
                 android:layout_marginStart="@dimen/_12sdp"
                 android:layout_marginTop="@dimen/_20sdp"
                 android:layout_marginEnd="@dimen/_12sdp"
                 android:src="@drawable/ic_goback"
                 app:tint="@color/verdigris"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                />
+                app:layout_constraintTop_toTopOf="parent"/>
+            <ImageView
+                android:id="@+id/NoteSave"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginEnd="@dimen/_12sdp"
+                android:src="@drawable/ic_thumbsup"
+                app:tint="@color/verdigris"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/NoteBack"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
